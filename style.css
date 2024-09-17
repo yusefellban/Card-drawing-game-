@@ -31,7 +31,7 @@ img {
 #cccards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-auto-rows: 24vh;
+  grid-auto-rows: 10vh;
   gap: 3rem;
 }
 
@@ -101,6 +101,10 @@ img {
 @media (width>600px) {
   #content {
     width: 450px;
+  }
+  #cccards{
+     grid-auto-rows: 22vh;
+
   }
 }
 @media (width>800px) {
